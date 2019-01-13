@@ -1,0 +1,29 @@
+DEPLOY SPRING BOOT 2 APPLICATIONS ON HEROKU
+
+*Step 1*: Sign Up on Heroku (http://www.heroku.com)
+
+*Steps 2:*
+Add Heroku SDK to your pom.xml
+
+Maven:
+<!-- https://mvnrepository.com/artifact/com.heroku.sdk/heroku-maven-plugin -->
+<dependency>
+    <groupId>com.heroku.sdk</groupId>
+    <artifactId>heroku-maven-plugin</artifactId>
+    <version>2.0.6</version>
+</dependency>
+
+Gradle: compile group: 'com.heroku.sdk', name: 'heroku-maven-plugin', version: '2.0.6'
+
+*Step 3:* Login into Heroku and create application
+
+$ heroku login
+$ heroku create -n
+
+Step 4: Push app to heroku
+
+$ mvn clean package heroku:deploy -Dheroku.appName=<appname>
+
+
+
+
