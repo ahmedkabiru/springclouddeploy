@@ -1,0 +1,21 @@
+:compat-mode:
+= How to Deploy on Cloud Foundry
+
+== Introduction
+This example shows how you can push a Spring Boot 2 application to Cloud Foundry. You
+will need a https://run.pivotal.io/[Cloud Foundry account].
+Follow the link below to set up deployment on apps on Cloud Foundry.
+
+https://pivotal.io/platform/pcf-tutorials/getting-started-with-pivotal-cloud-foundry/install-the-cf-cli
+
+== Pushing to Cloud Foundry
+You can build and push the application as follows:
+
+```
+$ mvn clean package
+$ cf push <appname> -p target/livelessons-cloud-cloudfoundry-1.0.0-SNAPSHOT.jar
+```
+
+
+
+

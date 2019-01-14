@@ -1,4 +1,5 @@
-DEPLOY SPRING BOOT 2 APPLICATIONS ON HEROKU
+:compat-mode:
+== How to deploy Spring Boot 2 Apps On Heroku
 
 *Step 1*: Sign Up on Heroku (http://www.heroku.com)
 

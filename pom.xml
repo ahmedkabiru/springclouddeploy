@@ -11,6 +11,7 @@
 
     <modules>
         <module>deploy-to-heroku</module>
+        <module>deploy-to-cloudfoundry</module>
     </modules>
 
 </project>

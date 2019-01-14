@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/deploy-to-cloudfoundry/deploy-to-cloudfoundry.iml" filepath="$PROJECT_DIR$/deploy-to-cloudfoundry/deploy-to-cloudfoundry.iml" />
       <module fileurl="file://$PROJECT_DIR$/deploy-to-heroku/deploy-to-heroku.iml" filepath="$PROJECT_DIR$/deploy-to-heroku/deploy-to-heroku.iml" />
       <module fileurl="file://$PROJECT_DIR$/springclouddeploy.iml" filepath="$PROJECT_DIR$/springclouddeploy.iml" />
     </modules>

@@ -1,7 +1,8 @@
-DEPLOY SPRING BOOT 2 APPLICATION ON CLOUD PLATFORMS
+:compat-mode:
+== DEPLOY SPRING BOOT 2 APPLICATION ON CLOUD PLATFORMS
 
-How to build and deploy applications on  cloud platforms such as Cloud Foundry and Heroku.
+How to build and deploy applications on cloud platforms such as Cloud Foundry and Heroku.
 
 https://github.com/ahmedkabiru/springclouddeploy/tree/master/deploy-to-heroku[Heroku]
 
-http://CloudFoundry[CloudFoundry]
+https://github.com/ahmedkabiru/springclouddeploy/tree/master/deploy-to-cloudfoundry[CloudFoundry]
