@@ -13,7 +13,7 @@ You can build and push the application as follows:
 
 ```
 $ mvn clean package
-$ cf push <appname> -p target/livelessons-cloud-cloudfoundry-1.0.0-SNAPSHOT.jar
+$ cf push <appname> -p target/deploy-to-cloudfoundry-1.0.0-SNAPSHOT.jar
 ```
 
 
